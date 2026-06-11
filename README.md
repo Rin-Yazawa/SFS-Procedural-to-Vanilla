@@ -9,7 +9,7 @@ Copy the generated output from the line, all the way to the final curly bracket.
 Paste the output into the same blueprint file you copied from, similarly to how you would insert a burn mark.
 
 ## How it Works and Limitations
-The code works by searching for a procedural parts, grabbing the values and converting them into the variables used in vanilla parts.
+The code works by searching for procedural parts, grabbing the values and converting them into the variables used in vanilla parts.
 
 There are a few limitations as values adjusted like layer and parallel have no direct counter part. Interestingly, depth is simulated by applying a burn mark equal to depth divided by 4. So this tool also acts as a burn mark applier.
 
