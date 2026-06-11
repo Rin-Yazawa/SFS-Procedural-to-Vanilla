@@ -8,10 +8,16 @@ Copy the generated output from the line, all the way to the final curly bracket.
 
 Paste the output into the same blueprint file you copied from, similarly to how you would insert a burn mark.
 
-Turn off Procedural Parts, load the blueprint, then save it. (This is optional and is only meant to delete the procedural parts, providing parity for those with and without the mod.
 ## How it Works and Limitations
 The code works by searching for a procedural parts, grabbing the values and converting them into the variables used in vanilla parts.
 
 There are a few limitations as values adjusted like layer and parallel have no direct counter part. Interestingly, depth is simulated by applying a burn mark equal to depth divided by 4. So this tool also acts as a burn mark applier.
 
 As of like right now, it only works on fuel tanks and the main fairing part (not the cone). I plan to update it to be able to convert all modded parts into vanilla.
+
+## Important Disclamer
+Overwriting the converted blueprint without the mod will NOT remove the modded parts in the blueprint file, meaning players with the mod activated will have duplicated parts when loading a converted file, a vanilla part and a procedural part.
+
+When planning to use this, I recommend having two links, one for those with the mod installed and one for those without the mod.
+
+Maybe in the future I will create a tool that removes all the stored procedural parts but I really can't be bothered.
