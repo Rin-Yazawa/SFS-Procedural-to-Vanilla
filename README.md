@@ -15,10 +15,10 @@ The code works by searching for procedural parts, grabbing the values and conver
 
 There are a few limitations as values adjusted like layer and parallel have no direct counter part. Interestingly, depth is simulated by applying a burn mark equal to depth divided by 4. So this tool also acts as a burn mark applier.
 
-As of like right now, it only works on fuel tanks and the main fairing part (not the cone). I plan to update it to be able to convert all modded parts into vanilla.
+As of like right now, it only works on fuel tanks, all fairing variants (that are in the vanilla game), both aero cone variants (bevel is considered an unreplicatable attribute), and all engines besides the non-stock one. I plan to update it to be able to convert all modded parts into vanilla.
 
 ## Important Disclamer
-Overwriting the converted blueprint without the mod will NOT remove the modded parts in the blueprint file, meaning players with the mod activated will have duplicated parts when loading a converted file, a vanilla part and a procedural part.
+Overwriting the converted blueprint without the mod will NOT remove the modded parts in the blueprint file, meaning players with the mod activated will have duplicated parts when loading a converted file, the being a vanilla part and a procedural part.
 
 When planning to use this, I recommend having two links, one for those with the mod installed and one for those without the mod.
 
