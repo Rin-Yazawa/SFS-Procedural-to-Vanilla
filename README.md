@@ -1,6 +1,6 @@
 # Procedural to Vanilla
 ## Latest Version: v1.2.0
-To get the latest version, download the latest release, specifically the converter_v.x.x.x.file
+To get the latest version, download the latest release, specifically the converter_v1.2.0.py file
 ## Usage
 A video demo can be found here: https://youtube.com/shorts/iPaXmVm8wIc?si=TG-mMkt4K3qipMrq
 
